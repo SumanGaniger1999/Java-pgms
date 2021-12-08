@@ -10,8 +10,8 @@ public static void main(String args[]) {
 		dao.create("shweta@gamil.in");
 		
 	 
-	       Email ml=new FindCom();
-	       System.out.println(dao.find(ml,".com"));
+	       Email ml1=new FindCom();
+	       System.out.println(dao.find(ml1,".com"));
 	       
 	       
 	       Email email=new FindIn();
